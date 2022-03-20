@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <title>PUTRA MINANG</title>
+  </head>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@300;500&display=swap');
+
+    #btn {
+      background-color: rgb(172, 169, 0);
+      border: none;
+    }
+
+    #btn:hover{
+      letter-spacing: 0.4px;
+      transition: .1s ease-in-out;
+    }
+
+  </style>
+
+  <body>
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow text-light">
+      <div class="container-fluid container pt-2 pb-2">            
+        <img src="img/logo1.png" width="65" alt="PutraMinang" id="logo">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center w-75 ps-5 " id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#homepage">Homepage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav"">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link bi bi-person-fill" href="registrasi.html"> Daftar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bi bi-box-arrow-in-left" href="login.html"> Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- homepage -->
+    <div id="homepage" class="text-center mt-5 pb-5 text-light" style="background: url(img/BG1.jpg) no-repeat center fixed; height: 100%; background-size: cover;">
+      <div class="container pt-5" style=" font-family: 'Roboto';">
+          <h3 class="pt-5" style="font-size: 20px; letter-spacing: 8px;">RUMAH MAKAN</h3>
+          <h1 class="pt-4" style="font-size: 55px; font-weight: 900; letter-spacing: 5px;">PUTRA MINANG</h1>
+      </div>
+      <div class="pt-5">
+          <p style="font-size: 20px; font-weight: 400;">Merupakan masakan khas Sumatra Barat yang tidak asing lagi di Masyarakat</p>
+          <a class="btn btn-dark mt-5 bi bi-search" href="https://goo.gl/maps/3r8AQiTKNNRoBt7JA" id="btn"> Lokasi</a>
+      </div>
+    </div>
+    <!-- homepage end -->
+    
+    <!-- blog -->
+    <div id="blog" class="bg-dark pt-5 pb-5">
+      <div class="container pt-4 pb-4">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                <p class="text-light border-bottom d-inline-block pb-2" style="font-size: 30px;">Blog</p>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 text-light" style="background-color: rgb(83, 88, 0);">
+              <img src="img/rendang.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Rendang</h5>
+                <p class="card-text ">Pada 2011, rendang dinobatkan sebagai hidangan yang menduduki peringkat pertama daftar World's 50 Most Delicious Foods (50 Hidangan Terlezat Dunia) versi CNN International. Pada 2018, rendang secara resmi ditetapkan sebagai salah satu dari lima hidangan nasional Indonesia.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Updated on Sabtu, 19 Maret 2022</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-light" style="background-color: rgb(83, 88, 0);">
+              <img src="img/adat.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Upacara Tabuik</h5>
+                <p class="card-text">Perayaan Tabuik merupakan peringatan hari wafatnya seorang cucu Nabi Muhammad SAW, Husein bin Ali bin Abi Thalib, pada tanggal 10 Muharram. Dalam catatan sejarah, Husein beserta keluarganya wafat di hari itu pada peristiwa Karbala. </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Updated on Minggu, 13 Maret 2022</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 text-light" style="background-color: rgb(83, 88, 0);">
+              <img src="img/GrF.png" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Rumah Makan sudah Merambah ke Online</h5>
+                <p class="card-text">Rumah makan sekarang sudah banyak merambah ke Marketplace/e-commers untuk memperluas jangkauan pasarnya
+                  dan bisa diliat/dipesan oleh siapa saja, kapan saja </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Updated on Sabtu, 12 Maret 2022</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <!-- end blog -->
+
+    <!-- about -->
+    <div id="about" class="text-center text-light p-5" style="background: url(img/rm.jpg) no-repeat center fixed; height: 100%; background-size: cover;">
+      <div class="container p-5 m-5" style=" font-family: 'Roboto'; ">
+        <h1 class="pb-5" style="font-size: 50px; font-weight: 900; letter-spacing: 3px;">Tentang Kami</h1>
+        <p style="font-weight: 300; font-size: 20px;">Rumah Makan Putra minang adalah salah satu rumah makan khas Sumatra Barat yang eksis di dunia kuliner, berdiri sejak 1999 Rumah makan ini sudah memanjakan lidah penikmat kuliner selama 23 tahun dengan cita rasa yang khas Sumatra barat. Beralamat di Jl.Wirasaba no 73, Rumah makan ini berada di daerah stategis yang mana mudah untuk ditemukan. Rumah Makan ini Menyediakan banyak Menu makanan dan minuman. dan yang paling populer tentu Rendang yang mantap.
+        Sekarang, Rumah makan ini juga sudah tersedia di Marketplace/e-commers guna memudahkan pelanggan setia maupun pelanggan baru dalam menikmati masakan yang kami hidangkan dengan khas Sumatra Barat</p>
+        <a class="btn btn-dark mt-5 bi bi-globe" href="https://food.grab.com/id/id/restaurant/rm-putra-minang-masakan-padang-adiarsa-barat-delivery/6-CYMBBA6CC3X3RT" id="btn"> PutraMinang</a>
+      </div>
+    </div>
+    <!-- end about -->
+
+    <!-- contact -->
+    <div class="bg-dark pt-4" id="contact">
+      <div class="container p-5">
+        <div class="card text-white bg-dark mb-3 w-100">
+          <div class="card-header text-center p-3" style="font-size: 30px; font-weight: 600; letter-spacing: 3px;">Contact us</div>
+          <div class="card-body">
+            <form class="row g-4">
+              <div class="col-md-12">
+                <label for="name" class="form-label">Nama </label>
+                <input type="text" class="form-control" id="name-front">
+              </div>
+              
+              <div class="col-12">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email">
+              </div>
+              <div class="col-12">
+                <label for="tingkat-urgensi" class="form-label">Kepentingan</label>
+                <select class="form-select" id="tingkat-urgensi">
+                  <option value="Complain">Complain</option>
+                  <option value="Saran">Saran</option>
+                  <option value="Ulasan">Ulasan</option>
+                </select>
+              </div>
+              
+              <div class="col-12">
+                <label for="deskripsi" class="form-label">Deskripsi</label>
+                <textarea class="form-control" cols="30" rows="10" id="deskripsi"></textarea>
+              </div>
+              <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary">Kirim</button>
+              </div>
+             
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- footer -->
+    <footer class="bg-dark text-white text-center pb-5">
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/thedondamen/" class="text-pink fw-bold"> Rafli Tanjung </a></p>
+    </footer>
+    <!-- penutup footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- end footer -->
+    
+
+
+    
+  </body>
+</html>
